@@ -7,7 +7,8 @@ public enum MenuItems {
     PHARAON("Фараон Hall"),
     CHARLIE("Чарли Gold"),
     BILLIARD("Billiard"),
-    CAKES("Торты на");
+    CAKES("Торты на"),
+    Cinema ("Кино");
 
     private String desc;
 
