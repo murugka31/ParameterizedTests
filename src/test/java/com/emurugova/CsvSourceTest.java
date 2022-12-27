@@ -7,13 +7,14 @@ public class CsvSourceTest {
 
     Page page = new Page();
     @CsvSource(value = {
-            "0001; Доставка; Позитивный тест",
-            "0002; Fellini; Позитивный тест",
-            "0003; Манга; Позитивный тест",
-            "0004; Фараон Hall; Позитивный тест",
-            "0005; Чарли Gold; Позитивный тест",
-            "0006; Billiard; Позитивный тест",
-            "0007; Торты на; Позитивный тест",
+            "1; Доставка; Позитивный тест",
+            "2; Fellini; Позитивный тест",
+            "3; Манга; Позитивный тест",
+            "4; Фараон Hall; Позитивный тест",
+            "5; Чарли Gold; Позитивный тест",
+            "6; Billiard; Позитивный тест",
+            "7; Торты на; Позитивный тест",
+            "8; Кино; Позитивный тест",
     }, delimiter = ';')
     @ParameterizedTest
     void checkMenuItemsForSovremennikWithCsv(int testId, String menuItem, String testName) {
