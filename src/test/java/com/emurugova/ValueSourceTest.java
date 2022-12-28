@@ -13,7 +13,8 @@ public class ValueSourceTest {
             "Фараон Hall",
             "Чарли Gold",
             "Billiard",
-            "Торты на"
+            "Торты на",
+            "Кино"
     })
     @ParameterizedTest
     void checkMenuItemsForSovremennikWithValues (String menuItem) {
